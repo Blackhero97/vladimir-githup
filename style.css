@@ -1,0 +1,71 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+img{
+    width: 300px;
+}
+.card{
+    width: 50px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 25px 2px #b9b9b9be;
+    
+}
+body{
+    background: #F5F9FE;
+}
+h4{
+    font-size: 35px;
+    color: #d429b4;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 25px;
+    background:  #d429b4;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+.cards{
+    display: flex;
+}
+.qora{
+    background : #000;
+    color: #fff;
+}
+img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.card:hover{
+    background: #000;
+    color: #fff;
+    transition: 1.5s ease;
+    transform: translatey(-20px);
+}
+button:active{
+    background: #251b82;
+    transition: 0.7s ease;
+}
+button:hover{
+    background: #cd3a6b;
+    transition: 0.7s ease;
+}
+.card:hover img{
+    transform:rotate() ;
+    transition: 1s ease;
+}
+
